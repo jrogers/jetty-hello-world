@@ -12,4 +12,4 @@ USER nobody
 EXPOSE 8080
 EXPOSE 9910
 
-CMD ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-XX:-OmitStackTraceInFastThrow", "-Dcom.sun.management.jmxremote", "-Dcom.sun.management.jmxremote.port=9910", "-Dcom.sun.management.jmxremote.rmi.port=9910", "-Dcom.sun.management.jmxremote.ssl=false", "-Dcom.sun.management.jmxremote.authenticate=false", "-Djava.rmi.server.hostname=localhost", "-Djava.security.egd=file:/dev/./urandom", "-jar", "application.jar"]
+CMD ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-XX:-OmitStackTraceInFastThrow", "-Dcom.sun.management.jmxremote", "-Dcom.sun.management.jmxremote.port=9910", "-Dcom.sun.management.jmxremote.rmi.port=9910", "-Dcom.sun.management.jmxremote.ssl=false", "-Dcom.sun.management.jmxremote.authenticate=false", "-Djava.security.egd=file:/dev/./urandom", "-jar", "application.jar"]
