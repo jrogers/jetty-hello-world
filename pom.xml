@@ -12,6 +12,8 @@
   <properties>
     <jetty.version>9.4.10.v20180503</jetty.version>
     <shade.version>3.1.0</shade.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
